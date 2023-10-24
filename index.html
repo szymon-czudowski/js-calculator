@@ -3,8 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>JS calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+        <input type="text" class="inputValues" readonly>
+        <div class="button-container">
+        <button onclick="addToField('1')">1</button>
+        <button onclick="addToField('2')">2</button>
+        <button onclick="addToField('3')">3</button>
+        <button onclick="addToField('+')">+</button>
 
+        <button onclick="addToField('4')">4</button>
+        <button onclick="addToField('5')">5</button>
+        <button onclick="addToField('6')">6</button>
+        <button onclick="addToField('-')">-</button>
+
+        <button onclick="addToField('7')">7</button>
+        <button onclick="addToField('8')">8</button>
+        <button onclick="addToField('9')">9</button>
+        <button onclick="addToField('*')">*</button>
+
+        <button onclick="addToField('0')">0</button>
+        <button onclick="addToField('C')">C</button>
+        <button onclick="addToField('=')">=</button>
+        <button onclick="addToField('/')">/</button>
+        </div>
+</div>
+<script src="scripts.js"></script>
 </body>
 </html>
