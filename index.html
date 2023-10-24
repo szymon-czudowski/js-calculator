@@ -9,25 +9,25 @@
 <div class="container">
         <input type="text" class="inputValues" readonly>
         <div class="button-container">
-        <button onclick="addToField('1')">1</button>
-        <button onclick="addToField('2')">2</button>
-        <button onclick="addToField('3')">3</button>
-        <button onclick="addToField('+')">+</button>
+        <button onclick="appendToInputValues('1')">1</button>
+        <button onclick="appendToInputValues('2')">2</button>
+        <button onclick="appendToInputValues('3')">3</button>
+        <button onclick="appendOperator('+')">+</button>
 
-        <button onclick="addToField('4')">4</button>
-        <button onclick="addToField('5')">5</button>
-        <button onclick="addToField('6')">6</button>
-        <button onclick="addToField('-')">-</button>
+        <button onclick="appendToInputValues('4')">4</button>
+        <button onclick="appendToInputValues('5')">5</button>
+        <button onclick="appendToInputValues('6')">6</button>
+        <button onclick="appendOperator('-')">-</button>
 
-        <button onclick="addToField('7')">7</button>
-        <button onclick="addToField('8')">8</button>
-        <button onclick="addToField('9')">9</button>
-        <button onclick="addToField('*')">*</button>
+        <button onclick="appendToInputValues('7')">7</button>
+        <button onclick="appendToInputValues('8')">8</button>
+        <button onclick="appendToInputValues('9')">9</button>
+        <button onclick="appendOperator('*')">*</button>
 
-        <button onclick="addToField('0')">0</button>
-        <button onclick="addToField('C')">C</button>
-        <button onclick="addToField('=')">=</button>
-        <button onclick="addToField('/')">/</button>
+        <button onclick="appendToInputValues('0')">0</button>
+        <button onclick="clearInput('C')">C</button>
+        <button onclick="calculateResult('=')">=</button>
+        <button onclick="appendOperator('/')">/</button>
         </div>
 </div>
 <script src="scripts.js"></script>
